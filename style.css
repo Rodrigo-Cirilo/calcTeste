@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ 
+ .calcBody{
+    max-width: 400px;
+  
+    /* text-align: center; */
+    background-color: rgb(51, 48, 48);
+    padding: 5px;  
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+   
+} 
+
+.calcDisplay{
+   
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 0;
+   
+  
+  
+    
+}
+
+.sinal{
+    font-size: 4rem;    
+    color: lawngreen;
+    
+    font-family: font-calc;
+    text-align: right;
+   
+    /* height: 30px; */
+}
+#textResult{
+    
+    font-size: 4rem; 
+    border: 2px solid rgb(48, 196, 19);
+   
+    color: lawngreen;
+    
+    font-family: font-calc;
+    text-align: right;
+    padding-right: 10px;
+   
+    
+}
+
+.btnBody{
+    
+    background-color: gray;
+    text-align: center;   
+    padding: 10px;
+    border: 2px solid rgba(32, 231, 13, 0.637);
+    max-width: 400px;
+    max-height: 600px;
+   
+    
+}
+.botoes{
+    border: 1px solid black;
+    font-family: font-calc;
+    margin:3px;
+    background-color: lightgray;
+    display: inline-block;    
+    font-size: 3.5rem;
+    /* box-sizing: border-box; */
+    cursor: pointer;    
+    width: 70px;
+    height: 70px;
+   
+    
+    
+}
+
+.form1{   
+    float: left;  
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#botaoc{
+    margin-left: 67%;
+}
+
+
+@font-face {
+    font-family: font-calc;
+    src: url(./fonts/Calculator.ttf);
+}

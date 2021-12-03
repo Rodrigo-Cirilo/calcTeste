@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calcBody">
+        <div class="calcDisplay">
+            <h3 id="textResult">0</h3>
+        </div>
+        <div class="sinal"><p id="pSinal">.</p></div>
+        <div class="btnBody">
+            <div onclick="addNumero('1')" class="botoes" id="botao1">1</div>
+            <div onclick="addNumero('2')" class="botoes" id="botao2">2</div>
+            <div onclick="addNumero('3')" class="botoes" id="botao3">3</div>
+            <div onclick="addSinal('/')" class="botoes" id="botao/">/</div>
+            <div onclick="addNumero('4')" class="botoes" id="botao5">4</div>
+            <div onclick="addNumero('5')" class="botoes" id="botao6">5</div>
+            <div onclick="addNumero('6')" class="botoes" id="botao7">6</div>
+            <div onclick="addSinal('*')" class="botoes" id="botaox">*</div>
+            <div onclick="addNumero('7')" class="botoes" id="botao8">7</div>
+            <div onclick="addNumero('8')" class="botoes" id="botao0">8</div>
+            <div onclick="addNumero('9')" class="botoes" id="botao9">9</div>
+            <div onclick="addSinal('-')" class="botoes" id="botao-">-</div>
+            <div onclick="floatNumber()" class="botoes" id="botao,">.</div>           
+            <div onclick="addNumero('0')" class="botoes" id="botao0">0</div>
+            <div onclick="result()" class="botoes" id="botaoIgual">=</div>
+            <div onclick="addSinal('+')" class="botoes" id="botaoMais">+</div>  
+            <div class="form1">
+            <form action="">
+                <input id="check" type="checkbox" name="check1" value="on">
+                <label for="check">No Beep</label>
+            </form>        
+           </div>
+            <div onclick="limpa()" class="botoes" id="botaoc">C</div>
+           
+            
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
